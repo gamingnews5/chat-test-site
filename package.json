@@ -1,0 +1,16 @@
+{
+  "name": "chat-test-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Small OpenCode Go chat tester with a password gate",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/*.test.js",
+    "test:live": "node scripts/live-check.mjs"
+  }
+}
